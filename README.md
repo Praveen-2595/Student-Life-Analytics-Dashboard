@@ -21,7 +21,7 @@ Student Life Analytics Dashboard is a Python and SQL–based project that collec
 ```
 Student-Life-Analytics-Dashboard/
 ├── data/
-├── main.ipynb
+├── db_connect.py
 ├── README.md
 ├── .gitignore
 └── .env
