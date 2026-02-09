@@ -16,8 +16,5 @@ conn = mysql.connector.connect(
     database = DB_NAME,
 )
 
-print("connection succesfully")
-
 conn.close()
-
 
