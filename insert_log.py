@@ -26,7 +26,7 @@ log_date = datetime.date.today()
 
 cursor = conn.cursor()
 query = "INSERT INTO daily_log (log_scrtime,log_sleep,log_study,log_date) VALUES(%s,%s,%s,%s)"
-values = (log_scrtime, log_sleep ,log_study ,log_date)
+values = (log_scrtime, log_sleep ,log_study ,log_date)  
 
 cursor.execute(query,values)
 cursor.close()
