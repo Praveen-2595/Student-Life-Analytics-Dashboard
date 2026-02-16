@@ -17,4 +17,3 @@ conn = mysql.connector.connect(
 )
 
 conn.close()
-
